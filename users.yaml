@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alex
+spec:
+  profile:
+    displayName: Alex Doe
+    email: alex-doe@example.com
+    picture: https://www.ikea.com/us/en/images/products/kopparfall-picture-moonscape__0997459_pe822680_s5.jpg?f=xl
+  memberOf: [devops, test]
