@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: infrastructure
+  name: devops
   description: The infra business unit
 spec:
   type: business-unit
@@ -11,4 +11,4 @@ spec:
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: ops
   children: [backstage, other]
-  members: [alexdoe]
+  members: [alex]
